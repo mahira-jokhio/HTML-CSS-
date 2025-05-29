@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered HTML Form</title>
+</head>
+<body>
+    <center>
+        <form>
+            <font color="green" size="5">
+                <h2><i>HTML FORM</i></h2>   <!--- <i> To make text italic -->
+            </font>
+
+            <!-- Name -->
+            <label for="fullname">Your Full Name:</label><br>
+            <input type="text" id="fullname" name="fullname" placeholder="Enter your Full Name" required><br><br>
+
+            <!-- Father's Name -->
+            <label for="fathername">Your Father Name:</label><br>
+            <input type="text" id="fathername" name="father name" placeholder="Enter your Father Name" required><br><br>
+
+            <!-- Email -->
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your Email"><br><br>
+
+            <!-- Number -->
+            <label for="number">Your Number:</label><br>
+            <input type="number" id="number" name="number" placeholder="Enter your Number"><br><br>
+
+            <!-- Department -->
+            <label>Choose Department(s):</label><br>
+            <input type="checkbox" id="dept1" name="dept" value="Computer Science">
+            <label for="dept1">Computer Science</label><br>
+            <input type="checkbox" id="dept2" name="dept" value="Artificial Intelligence">
+            <label for="dept2">Artificial Intelligence</label><br><br>
+
+            <!-- Gender -->
+            <label>Choose your Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="Other">
+            <label for="other">Other</label><br><br>
+
+            <!-- Color -->
+            <label for="color">Choose your favorite color:</label><br>
+            <input type="color" id="color" name="color"><br><br>
+
+            <!-- File Upload -->
+            <label for="file">Provide your current Resume:</label><br>
+            <input type="file" id="file" name="file"><br><br>
+
+            <!-- Time & Date -->
+            <label for="time">Choose your time:</label><br>
+            <input type="time" id="time" name="time"><br><br>
+
+            <label for="date">Choose your date:</label><br>
+            <input type="date" id="date" name="date"><br><br>
+
+            <!-- Range -->
+            <label for="range">Choose your range:</label><br>
+            <input type="range" id="range" name="range"><br><br>
+
+            <!-- Password -->
+            <label for="password">Your Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="Enter your Password"><br><br>
+
+            <!-- City Dropdown -->
+            <label for="opt">Choose your City:</label><br>
+            <select name="opt" id="opt">
+                <option value="Karachi">Karachi</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Lahore">Lahore</option>
+                <option value="Islamabad">Islamabad</option>
+                <option value="Faisalabad">Faisalabad</option>
+            </select><br><br>
+
+            <!-- Feedback Textarea -->
+            <label for="area">Give your feedback:</label><br>
+            <textarea id="area" name="area" rows="5" cols="30" placeholder="Type your message here"></textarea><br><br>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Submit"><br><br>
+
+            <!-- Image Submit Button -->
+            <input type="image" src="arrow-right.jpg" alt="Submit" width="100" height="50">
+
+            <label for="mob">Choose your favorite mobile brand: </label>
+            <input list="mob" id ="mobile" name="mobile" placeholder="Mobile Brands" required>
+            <br><br>
+        <datalist id="mob">
+            <option value="Apple">
+            <option value="Samsung">
+            <option value="Spark">
+            <option value="Xiaomi">
+            <option value="Oppo">
+            <option value="Vivo">
+            <option value="Realme">
+            <option value="Nokia">
+        </datalist>
+
+    <!-- creating the feild set----->
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Name:</label>
+                <lable for="name">Enter your Name:</label><br>
+                <label for="address">Address:</label><br>
+                <input type="text" id="address" name="address" placeholder="Enter your Address"><br><br>
+                <label for="zip">Zip Code:</label><br>
+                <input type="text" id="zip" name="zip" placeholder="Enter your Zip Code"><br><br>
+            </fieldset>
+        <br><br>
+        <img src="MUET Gate.jpg" alt="Example Image" width="300" height="200"><br><br>
+        <figcaption>A memorable scenario of META Pic-1</figcaption>
+        <menu>
+            <ul>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Chikoo</li>
+            <li>Mango</li>
+            <li>Orange</li>
+            <li>WaterMelon</li>
+            </ul>
+        </menu>
+        <nav>
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+            <a href="">Services</a>
+            <a href="">Feedback</a>
+
+        </nav>
+        </form>
+    </center>
+</body>
+</html>
